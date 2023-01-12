@@ -1,5 +1,3 @@
 #!/bin/bash
-
 #did it want commentary? apparently it did. this made it change from an unrecognized command to permission denied
-
 pwd
