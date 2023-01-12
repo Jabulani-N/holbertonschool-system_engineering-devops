@@ -1,0 +1,1 @@
+mandated README. also made in emacs. spamming C-x seems to be a generally good way to escape unwanted menus, but should be used with actually reading which menu you're in.
