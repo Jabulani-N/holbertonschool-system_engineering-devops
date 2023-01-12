@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# git add, git commit with filler message, git psuh
+
+git add .
+
+git commit -m 'committed by automated script'
+
+git push
