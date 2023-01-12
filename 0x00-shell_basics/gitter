@@ -2,8 +2,9 @@
 
 # git add, git commit with filler message, git psuh
 
+inputArg=$*
 git add .
 
-git commit -m  $1
+git commit -m  $inputArg
 
 git push
