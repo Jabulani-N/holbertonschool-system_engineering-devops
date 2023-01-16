@@ -1,0 +1,4 @@
+* is all files and directories
+*/ is all directories
+. is current directory
+.. is parent directory
