@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "Best School">"\*\\\'"Best School"\'\\*$\?\*\*\*\*\*:)"ls && ./7-file && ls -l && cat -e \\*
