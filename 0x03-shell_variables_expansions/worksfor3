@@ -1,0 +1,3 @@
+$!/bin/bash
+echo $PATH | tr -s ':' '\n' | wc -l
+#tr -s is squeezing repeats, (whatever that means) replacing each ':' with a newline via '\n', and then wc -l is counting how many lines there are in the result 
