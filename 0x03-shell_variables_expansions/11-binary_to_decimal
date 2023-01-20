@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$((10#$BIANRY))"
+echo -e "$((2#$BIANRY))"
