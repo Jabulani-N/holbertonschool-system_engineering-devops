@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#we can finally put comments in our sccripts! this one is named "about to be done" because it'll be at 1 befor the first action has actually happened.
 for schoolCountsAboutToBeDone in {1..10}
 do
     echo "Best School"
