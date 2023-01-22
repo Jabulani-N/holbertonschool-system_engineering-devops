@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#we can finally put comments in our sccripts! this one is named "about to be done" because it'll be at 1 befor the first action has actually happened.
+hour=0
+while [  $hour -le 12 ]
+do
+    echo "Hour: $hour"
+    ((hour++))
+    min=0
+    while [ $min -le 59 ]
+    do
+	echo "$min"
+	((min++))
+    done
+done
+
