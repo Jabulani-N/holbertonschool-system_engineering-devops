@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#copied number 2, and then inserting a case select for the special cases taht'll apply afterward. if it's anything liek if, it'll need to be listed as occuring after the reelvant interval, at hte beginning of one interval too late for it to happen at the right time
+
+numberAboutToBeDone=1
+until [ $numberAboutToBeDone -gt 10 ]
+do
+    echo "Best School"
+    ((numberAboutToBeDone++))
+    case $numberAboutToBeDone in
+	5) echo "bad luck from China" ;;
+    case $numberAboutToBeDone in
+        10) echo "bad luck from Japan" ;;
+    case $numberAboutToBeDone in
+        18) echo "bad luck from Italy" ;;
+done
