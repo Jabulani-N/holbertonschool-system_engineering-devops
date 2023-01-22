@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#you can for loop through files. this is an example of making the variable equal the name of each file that begins with the cahracter "4"
+
+for i in 4*
+do
+echo "$i"
+done

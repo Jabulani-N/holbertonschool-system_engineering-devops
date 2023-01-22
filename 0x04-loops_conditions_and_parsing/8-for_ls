@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#in list format means new line for each entry. this is not copied from any other task, so remember to GIVE ME EXECUTABLE PERMISSION
+
+for i in *
+do
+echo "$i"
+done
