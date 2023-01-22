@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#mostly copied from the at the time satte of previous question. Space MANDTORY
+numberAboutToBeDone=1
+while [ $numberAboutToBeDone -le 10 ]
+do
+    echo "Best School"
+    ((numberAboutToBeDone++))
+    if $numberAboutToBeDone -eq 9
+       echo "Hi"
+    fi
+       
+done
