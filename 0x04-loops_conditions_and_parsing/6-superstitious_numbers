@@ -4,7 +4,7 @@
 numberAboutToBeDone=1
 while [ $numberAboutToBeDone -le 20 ]
 do
-    echo "Best School"
+    echo "$numberAboutToBeDone"
     ((numberAboutToBeDone++))
     case $numberAboutToBeDone in
 	5) echo "bad luck from China" ;;
