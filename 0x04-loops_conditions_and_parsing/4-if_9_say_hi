@@ -5,7 +5,7 @@ while [ $numberAboutToBeDone -le 10 ]
 do
     echo "Best School"
     ((numberAboutToBeDone++))
-    if $numberAboutToBeDone -eq 9
+    if [ $numberAboutToBeDone -eq 10 ]
     then
         echo "Hi"
     fi
