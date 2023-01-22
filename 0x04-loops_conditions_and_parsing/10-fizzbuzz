@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+#nitialize count. while count -le 100, if 3, check for 5, if so, fizzbuzz, if not, normal 3, then check 5. if else for either, didsplaycount. it'd be more efficient to say "if not" because the returned "0" form a modulus of 0 remainder is the same as "0" which means "false," but this is a speedrun, so we're not gonna make hard to think through code. I'd have to invert everything and say "if it's true, that means it's not divisible," adn that's just askign for an error,.
+
+count=0
+while [  $count -le 100 ]
+do
+    if [ $(($count % 3)) -eq 0 ]
+       #this means it is divisible by 3
+    then
+          if [ $(($count % 5)) -eq 0]
+          then
+              echo "FizzBuzz"
+         
+          else
+          echo "Fizz"
+          fi
+	  
+     elif [ $(($count % 5)) -eq 0 ]
+    then
+	 echo "Buzz"
+     else
+         echo "$count"
+    fi
+    ((count++))
+done
+
