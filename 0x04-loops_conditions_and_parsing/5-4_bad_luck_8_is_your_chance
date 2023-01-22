@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#mostly copied from the at the time satte of previous question. Space MANDTORY
+numberAboutToBeDone=1
+while [ $numberAboutToBeDone -le 10 ]
+do
+    ((numberAboutToBeDone++))
+    if [ $numberAboutToBeDone -eq 5 ]
+    then
+        echo "bad luck"
+    elif [ $numberAboutToBeDone -eq 9 ]
+	then
+	    echo "good luck"
+    else
+    echo "Best School"
+	    
+    fi
+       
+done
