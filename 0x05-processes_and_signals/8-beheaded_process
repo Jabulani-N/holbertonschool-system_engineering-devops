@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# pgrep is invisible for some reason. do pgrep -af to see the name of relevant process. we used the specific filename to be sure it's the only process that gets killed
+
+#list of kill commands here: https://www.educba.com/linux-kill-signals/
+
+pkill -f -9 '7-highlander'
