@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# pgrep is invisible for some reason. do pgrep -af to see the name of relevant process. we used the specific filename to be sure it's the only process that gets killed
+
+pkill -f '4-to_infinity_and_beyond'
