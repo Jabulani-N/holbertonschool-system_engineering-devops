@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#make file and fill it outside the loop. then loop. edit trap command to react to kill. make new trap command to work on both term and quit. all traps will have 2 actions.
+
+echo "$$">/var/run/myscript.pid
+
+for (( ; ; ))
+do
+    echo To infinity and beyond
+    sleep 2
+    trap 'echo "I hate the kill command"; rm /var/run/myscript.pid; pkill -f -SIGKILL "100-"' SIGTERM
+    trap 'echo "Y U no love me?!"; pkill -f -SIGKILL "100-"' SIGINIT
+    trap 'rm /var/run/myscript.pid' SIGQUIT 
+
+done
+
+
