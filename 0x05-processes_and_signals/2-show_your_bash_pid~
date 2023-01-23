@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# ps gives the right format. pgrep does not
+# shellcheck disable=SC2009
+
+ps aux -H | cut -d'bash' -
