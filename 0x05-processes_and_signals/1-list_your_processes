@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # ps gives the right format. pgrep does not
 
-ps aux
+ps aux -H
