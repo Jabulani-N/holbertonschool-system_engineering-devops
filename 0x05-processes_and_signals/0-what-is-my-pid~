@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#we can finally put comments in our sccripts! this one is named "about to be done" because it'll be at 1 befor the first action has actually happened.
+
+for ((numberAboutToBeDone =1; numberAboutToBeDone<=10; numberAboutToBeDone++))
+do
+    echo "Best School"
+done
